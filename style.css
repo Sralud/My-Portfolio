@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    background-color: #BE5504;
+    background-color: #FF8C42;
     text-align: center;
     color: white;
     padding: 20px;
 }
 .name {
-    color: white;
+    color: #5B7C99;
 }
 .navigation {
     color: white;
@@ -39,6 +39,7 @@ a:hover {
 
 .project {
     border: 1px solid #ddd;
+    background-color: #CFE8EF;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -53,6 +54,12 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+    margin-bottom: 20px;
+}
+#about {
+    border: 1px solid #ddd;
+    background-color: #CFE8EF;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
@@ -79,7 +86,7 @@ img {
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
+    padding: 10px;
+    background-color: #FF8C42;
     margin-top: 20px;
 }
