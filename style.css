@@ -6,17 +6,15 @@ body {
     color: #333;
 }
 
-header, main, footer {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 header {
-    background-color: #f4f4f4;
+    background-color: #BE5504;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
-
+.name {
+    color: white;
+}
 nav ul {
     padding: 0;
 }
