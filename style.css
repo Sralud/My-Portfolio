@@ -7,16 +7,16 @@ body {
 }
 
 header {
-    background-color: #FF8C42;
+    background-color: #D98324;
     text-align: center;
-    color: white;
+    color: #EFDCAB;
     padding: 20px;
 }
 .name {
-    color: #5B7C99;
+    color: #443627;
 }
 .navigation {
-    color: white;
+    color: #EFDCAB;
 }
 
 nav ul {
@@ -51,12 +51,15 @@ h1, h2, h3 {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     border: 1px solid #ddd;
     background-color: #CFE8EF;
     padding: 10px;
