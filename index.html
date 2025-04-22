@@ -7,17 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="custom-sidebar" id="customSidebar">
+        <div class="custom-sidebar-header">
+            <h2>My Portfolio</h2>
+            <button id="closeCustomSidebar" class="custom-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="custom-sidebar-nav">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="custom-sidebar-footer">
+            <p>&copy; 2025 Gerald Llorente</p>
+        </div>
+    </div>
+    
+    <div class="custom-sidebar-overlay" id="customSidebarOverlay"></div>
+    
+    <button id="customSidebarToggle" class="custom-sidebar-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
     <header>
         <h1 class="name">Gerald J. Llorente</h1>
         <p>Web Developer | UI/UX Enthusiast | Intermediate Coder</p>
-        <nav>
-            <ul>
-                <li><a href="#about" class="navigation">About</a></li>
-                <li><a href="#skills" class="navigation">Skills</a></li>
-                <li><a href="#projects" class="navigation">Projects</a></li>
-                <li><a href="#contact" class="navigation">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
@@ -103,7 +120,9 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Gerald Llorente. All rights reserved.</p>
+        <p>&copy; 2025 Gerald Llorente. All rights reserved.</p>
     </footer>
 </body>
+<script src="script.js"></script>
+
 </html>
